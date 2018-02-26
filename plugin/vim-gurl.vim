@@ -18,7 +18,7 @@ function! Gurl()
   if firstLine == 0 && lastLine == 0
     let lineRange = lineNum
   else
-    let lineRange = firstLine . "-" . lastLine
+    let lineRange = firstLine . "-L" . lastLine
   endif
 
   " String Setup
